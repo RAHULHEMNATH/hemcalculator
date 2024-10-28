@@ -1,56 +1,43 @@
+body{
+    background-color:bisque;
+}
 *{
-    padding:10px;
-    margin:5px;
-    background-color:white;
-    justify-content:center;
-    justify-items:center;
-
+    justify-items: center;
+    margin-top:15px;
 }
-#one{
-border-radius:50px;
-width: 250px;
-background-color:aliceblue;
-font-size:20px;
-
+.full{
+    width:250px;
+    height:350px;
+    border-radius:40px;
+    box-shadow:black 0 0 15px;
+    background-color:#CECECE;
 }
-.button{
-    background-color:white;
-    opacity: 30%;
-    color:black;
-    margin: 10px;
-    width: 50px;
-    border-radius:50px;
-    font-size:20px;
+#input{
+    border-radius:15px;
+    width: 200px;
+    height:30px;
 }
-.button:hover
-{
-    background-color:beige;
-    color:black;
-    cursor:pointer;
-    box-shadow:black 0 0 20px;
-    opacity:50%;
-    border:5px;
+.btn{
+    border-radius: 50px;
+    width:38px;
+    height:38px;
+    margin: 6px;
+    cursor: pointer;
 }
-div{
-    background-color:;
-    width: 300px;
-    border-radius:20px;
-    border-color:1px;
-    box-shadow: blue 0 0 15px;
+.btn:hover{
+    background-color:black;
+    color:white;
+    box-shadow:aqua 0 0 5px;
 }
-.buttons{
-    width: 280px;
-    color:black;
-    border-radius:50px;
-    background-color:white;
-    opacity:7%;
+.btns{
+    border-radius: 50px;
+    width:38px;
+    height:38px;
+    margin: 6px;
+    cursor: pointer;
 }
-.buttons:hover{
-    background-color:beige;
-    color:black;
-    cursor:pointer;
-    box-shadow:black 0 0 20px;
-    opacity:50%;
-    border:5px;
-}   
+.btns:hover{
+    background-color:black;
+    color:white;
+    box-shadow:aqua 0 0 15px;
 }
