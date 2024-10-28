@@ -1,13 +1,13 @@
-const display=document.getElementById("one")
+var display=document.getElementById("input")
 function c(input)
 {
     display.value += input;
 }
-function calc(input)
-{
-    display.value=eval(display.value)
-}
 function cl()
 {
-    display.value=" "
+    display.value=""
+}
+function e()
+{
+    display.value=eval(display.value)
 }
